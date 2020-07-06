@@ -6,7 +6,11 @@ def load_library(emoticon_file)
 
   new_hash = Hash.new
 
-  
+  emoticons.each do |(meaning, value)|
+    english = value[0]
+    japanese =  value[1]
+  end
+
 end
 
 
