@@ -8,9 +8,6 @@ def load_library(emoticon_file)
     meaning = { english: value[0]}, { japanese: value[1]}
     binding.pry
     end
-
-  end
-  binding.pry
 end
 
 
