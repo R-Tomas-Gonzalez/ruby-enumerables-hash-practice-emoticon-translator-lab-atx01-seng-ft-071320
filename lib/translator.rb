@@ -10,7 +10,7 @@ def load_library(emoticon_file)
     new_hash[meaning] ||= {}
     new_hash[meaning][:english] = value[0]
     new_hash[meaning][:japanese] =  value[1]
-    #binding.pry
+    binding.pry
   end
   new_hash
 end
