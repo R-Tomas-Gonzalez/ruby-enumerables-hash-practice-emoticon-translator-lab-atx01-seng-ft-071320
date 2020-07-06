@@ -7,11 +7,11 @@ def load_library(emoticon_file)
   new_hash = Hash.new
 
   emoticons.each do |(meaning, value)|
-    english = value[0]
-    japanese =  value[1]
+    new_hash[meaning][:english] = value[0]
+    new_hash[meaning][:japanese] =  value[1]
     binding.pry
   end
-
+  new_hash
 end
 
 
