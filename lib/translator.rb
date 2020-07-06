@@ -7,6 +7,7 @@ def load_library(emoticon_file)
   emoticons.each_with_object({}) do |(meaning, value), final_array|
     english = value[0]
     japanese =  value[1]
+    new_hash = english.merge(japanese)
   end
 end
 
