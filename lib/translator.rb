@@ -15,7 +15,7 @@ def load_library(emoticon_file)
   new_hash
 end
 
-def get_japanese_emoticon(file_path, eng_emo)
+def get_japanese_emoticon(emoticons, eng_emo)
   library = load_library('./lib/emoticons.yml')
   library.each do |meaning, idioms|
     return idioms[:japanese] if idioms[:english] == eng_emo
