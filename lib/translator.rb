@@ -9,8 +9,6 @@ def load_library(emoticon_file)
     japanese = { japanese: value[1]}
     new_hash = english.merge(japanese)
   end
-  meaning[new_hash]
-  binding.pry
 end
 
 
