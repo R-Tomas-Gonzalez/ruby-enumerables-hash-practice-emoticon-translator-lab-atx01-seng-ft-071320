@@ -7,9 +7,8 @@ def load_library(emoticon_file)
   emoticons.each_with_object({}) do |(meaning, value), final_array|
     english = { english: value[0]}
     japanese = { japanese: value[1]}
-    value.each do |key|
-      binding.pry
-    end
+    binding.pry
+
   end
   binding.pry
 end
