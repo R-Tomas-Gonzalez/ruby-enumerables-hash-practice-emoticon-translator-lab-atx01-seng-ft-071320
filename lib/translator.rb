@@ -9,7 +9,7 @@ def load_library(emoticon_file)
     japanese = { japanese: value[1]}
     new_hash = english.merge(japanese)
     value.each do |keys|
-      final_array
+      
     binding.pry
   end
   binding.pry
