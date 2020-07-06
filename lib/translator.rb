@@ -9,6 +9,7 @@ def load_library(emoticon_file)
   emoticons.each do |(meaning, value)|
     english = value[0]
     japanese =  value[1]
+    binding.pry
   end
 
 end
